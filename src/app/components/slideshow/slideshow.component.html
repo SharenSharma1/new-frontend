@@ -1,0 +1,10 @@
+<div class="slideshow-container">
+    <div *ngFor="let image of images; let i = index" class="slide" [class.active]="image.active">
+      <img [src]="image.src" [alt]="image.alt">
+    </div>
+  </div>
+  
+<!-- <div class="carousel">
+    <div *ngFor="let image of images" class="carousel-item" [style.backgroundImage]="'url(' + image.url + ')'"></div>
+  </div> -->
+  

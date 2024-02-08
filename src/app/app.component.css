@@ -1,0 +1,66 @@
+/* Navbar */
+.navbar {
+  background-color: #144f66 !important; /* Navbar background color */
+}
+
+.heading{
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+}
+
+.navbar-brand img {
+  margin-left: 10px;
+  margin-right: 2px; /* Adjust spacing between brand image and text */
+}
+
+.navbar-nav .nav-link {
+  margin-left: 10px;
+  color: #000000; /* Navbar links color */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Navbar links hover color */
+}
+
+.profile-button {
+  border: none; /* Remove border from profile button */
+  background-color: transparent; /* Transparent background for profile button */
+}
+
+.profile-button img {
+  margin-right: 10px; /* Adjust spacing between profile image and button */
+}
+
+/* Form */
+.form-control {
+  border-radius: 20px; /* Rounded corners for search input */
+}
+
+/* Footer */
+.footer {
+  background-color: #f8f9fa; /* Footer background color */
+  color: #000; /* Footer text color */
+}
+
+.social-icons .btn-link {
+  margin-right: 5px; /* Adjust spacing between social icons */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .navbar-brand img {
+    width: 80px; /* Adjust brand image width for smaller screens */
+    height: 70px; /* Adjust brand image height for smaller screens */
+  }
+}
+
+.body {
+    background-image: '..\assets\user3.jpg' !important;
+    background-size: auto; /* Adjust as needed */
+    background-repeat: no-repeat;
+    
+  }
+  
+
+
+  
